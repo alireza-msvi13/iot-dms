@@ -27,7 +27,7 @@ A Nestjs application that processes x-ray data from IoT devices using RabbitMQ, 
    ```
 2.Install all required dependencies using npm:
    ```sh
-   npm instal
+   npm install
    ```
 3.Create .env file and set these
    ```sh
@@ -44,9 +44,7 @@ A Nestjs application that processes x-ray data from IoT devices using RabbitMQ, 
    # apps port
    PRODUCER_PORT=4000
    CONSUMER_PORT=5000
-     
    ```
-
 
 3.Start Project with Docker:
    ```sh
@@ -55,7 +53,7 @@ A Nestjs application that processes x-ray data from IoT devices using RabbitMQ, 
 
 ## Api document
 
-Swagger API documentation => `http://localhost:CONSUMER_PORT/v1/api-docs`
+swagger api documentation => `http://localhost:CONSUMER_PORT/v1/api-docs`
 
 ## Keep in touch with me
 
