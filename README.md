@@ -15,7 +15,9 @@
 
 ## IoT Data Management System
 
-A Nestjs application that processes x-ray data from IoT devices using RabbitMQ, stores processed information, and provides API endpoints for data retrieval and analysis.
+Designed and implemented a scalable backend system for processing X-ray data from IoT devices.
+
+The system uses RabbitMQ for asynchronous message processing, MongoDB for efficient data storage, and provides RESTful APIs for data retrieval and analysis. Optimized for high throughput and real-time insights
 
 
 
