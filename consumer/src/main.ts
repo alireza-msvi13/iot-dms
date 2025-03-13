@@ -16,7 +16,7 @@ async function bootstrap() {
   SwaggerConfigInit(app);
 
   const configService = app.get(ConfigService);
-  const PORT = configService.get('PORT');
+  const PORT = configService.get('CONSUMER_PORT');
   await app.listen(PORT, () => {
     console.log(`http://localhost:${PORT}`);
     console.log(`swagger: http://localhost:${PORT}/v1/api-docs`);
